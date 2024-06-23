@@ -1,0 +1,24 @@
+{
+  "id": "did:web:didpay.me:moegrammer",
+  "verificationMethod": [
+    {
+      "id": "did:web:didpay.me:moegrammer#0",
+      "type": "JsonWebKey",
+      "controller": "did:web:didpay.me:moegrammer",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "wgXMwV896GCGy-DkiwpEcgoFc75GRagyAOB1ibn741U"
+      }
+    }
+  ],
+  "service": [
+    {
+      "id": "#yolo",
+      "type": "maddr",
+      "serviceEndpoint": [
+        "urn:btc:addr:bc1qlku6fqqq28xnlv63zar2qj24nmwpqz6nhn0gap"
+      ]
+    }
+  ]
+}
