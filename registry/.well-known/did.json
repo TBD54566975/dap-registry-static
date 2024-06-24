@@ -2,8 +2,8 @@
   "id": "did:web:didpay.me",
   "service": [
     {
-      "id": "DapRegistry",
-      "type": "DapRegistry",
+      "id": "DAPRegistry",
+      "type": "DAPRegistry",
       "serviceEndpoint": [
         "https://didpay.me"
       ]
