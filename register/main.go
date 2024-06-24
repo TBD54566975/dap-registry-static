@@ -34,7 +34,7 @@ func main() {
 	maddrServices := make([]didweb.CreateOption, len(maddrs))
 
 	for i, maddr := range maddrs {
-		maddrService := didweb.Service(strconv.Itoa(i), "maddr", maddr)
+		maddrService := didweb.Service(strconv.Itoa(i), "MoneyAddress", maddr)
 		maddrServices[i] = maddrService
 	}
 
