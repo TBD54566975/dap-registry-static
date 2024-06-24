@@ -10,7 +10,7 @@ Behold! a Poor man's [DAP Registry](https://github.com/TBD54566975/dap?tab=readm
 # "Registering" a DAP
 1. Clone this repo
 2. Activate hermit
-3. run `just register <your_handle>
+3. run `just register <your_handle>`
 4. add whatever money addresses you want
 
 
