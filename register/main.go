@@ -10,6 +10,7 @@ import (
 	"strings"
 
 	"github.com/TBD54566975/dap-go/dap"
+	"github.com/alecthomas/types/optional"
 	"github.com/tbd54566975/web5-go/dids/didweb"
 )
 
@@ -61,14 +62,19 @@ func main() {
 		return
 	}
 
-	registration, err := json.MarshalIndent(r, "", "  ")
+	resolutionResponse := dap.ResolutionResponse{
+		DID:   bearerDID.URI,
+		Proof: optional.Some(r),
+	}
+
+	jsonResolutionResponse, err := json.MarshalIndent(resolutionResponse, "", "  ")
 	if err != nil {
 		fmt.Println("Error marshalling registration:", err)
 		return
 	}
 
 	regPath := filepath.Join("registry", "daps", handle)
-	writeFile(registration, regPath)
+	writeFile(jsonResolutionResponse, regPath)
 
 	fmt.Println("now open a PR with the auto-generated files")
 }
