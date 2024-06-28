@@ -31,6 +31,7 @@ func main() {
 		return
 	}
 
+	input = strings.TrimSuffix(input, "\n")
 	maddrs := strings.Split(input, ",")
 	maddrServices := make([]didweb.CreateOption, len(maddrs))
 
