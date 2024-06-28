@@ -1,0 +1,24 @@
+{
+  "id": "did:web:didpay.me:chriswmyers-bitkey",
+  "verificationMethod": [
+    {
+      "id": "did:web:didpay.me:chriswmyers-bitkey#0",
+      "type": "JsonWebKey",
+      "controller": "did:web:didpay.me:chriswmyers-bitkey",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "bNbDjdFYp8ZhXApn7dP5lYF-o8nTpd90nB-kzkNwkNA"
+      }
+    }
+  ],
+  "service": [
+    {
+      "id": "#0",
+      "type": "MoneyAddress",
+      "serviceEndpoint": [
+        "urn:btc:addr:bc1qv28w8sn3yffrsw5dyh3e74tyc6nannqxyqwjc5"
+      ]
+    }
+  ]
+}
