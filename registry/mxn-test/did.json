@@ -1,0 +1,24 @@
+{
+  "id": "did:web:didpay.me:mxn-test",
+  "verificationMethod": [
+    {
+      "id": "did:web:didpay.me:mxn-test#0",
+      "type": "JsonWebKey",
+      "controller": "did:web:didpay.me:mxn-test",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "0rIGQMgci-mH5_AS9CU0EsplcyNJpmspuY2nLNWN8L0"
+      }
+    }
+  ],
+  "service": [
+    {
+      "id": "#0",
+      "type": "MoneyAddress",
+      "serviceEndpoint": [
+        ""
+      ]
+    }
+  ]
+}

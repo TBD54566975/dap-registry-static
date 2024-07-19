@@ -1,0 +1,10 @@
+{
+  "did": "did:web:didpay.me:mxn-test",
+  "proof": {
+    "id": "reg_01j369hsysec1tngpc7qf6fy5b",
+    "handle": "mxn-test",
+    "did": "did:web:didpay.me:mxn-test",
+    "domain": "didpay.me",
+    "signature": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDp3ZWI6ZGlkcGF5Lm1lOm14bi10ZXN0IzAifQ..ikSMLiucI-rhlQsOJCkNp3ORtWUpE8444qUb3RUZFYSSCxCoJosZK1FihIBu4BewyzKAu-S-tUXegD0FB2RfAQ"
+  }
+}
