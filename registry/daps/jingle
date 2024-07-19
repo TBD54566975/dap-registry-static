@@ -1,0 +1,10 @@
+{
+  "did": "did:web:didpay.me:jingle",
+  "proof": {
+    "id": "reg_01j34pe0h0ey6axjjhhmmw895p",
+    "handle": "jingle",
+    "did": "did:web:didpay.me:jingle",
+    "domain": "didpay.me",
+    "signature": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDp3ZWI6ZGlkcGF5Lm1lOmppbmdsZSMwIn0..64Q4EZJV97jfl6qbtCD-jS5pSXdJkVEX9hu5x-Zw6jsKlATEHfirm7dbnXvg_KtUjAlvDe34Wpz7N_4ydYy5Cg"
+  }
+}
