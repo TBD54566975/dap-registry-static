@@ -17,7 +17,7 @@
       "id": "#yolo",
       "type": "MoneyAddress",
       "serviceEndpoint": [
-        "urn:btc:addr:bc1q2mhcf9w266j5czepxx6rxgck28afxfm5hejyhw87tj03l07gh2ns3ase6z"
+        "urn:btc:lnaddr:moegrammer@cash.app"
       ]
     }
   ]
