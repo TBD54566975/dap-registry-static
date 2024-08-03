@@ -1,0 +1,10 @@
+{
+  "did": "did:web:didpay.me:blackgirlbytes",
+  "proof": {
+    "id": "reg_01j4az9qnre12sats3fkkt17q1",
+    "handle": "blackgirlbytes",
+    "did": "did:web:didpay.me:blackgirlbytes",
+    "domain": "didpay.me",
+    "signature": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDp3ZWI6ZGlkcGF5Lm1lOmJsYWNrZ2lybGJ5dGVzIzAifQ..gETZr_OP2uk0hyOMgKYInkxrxhdELaRmHV5GvprEGJhu692-wBJAvr3Ztl_ztiWhNyoihX0Zs6i6ZL24TxH-Dg"
+  }
+}
