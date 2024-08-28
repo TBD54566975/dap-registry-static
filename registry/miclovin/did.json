@@ -1,0 +1,24 @@
+{
+  "id": "did:web:didpay.me:miclovin",
+  "verificationMethod": [
+    {
+      "id": "did:web:didpay.me:miclovin#0",
+      "type": "JsonWebKey",
+      "controller": "did:web:didpay.me:miclovin",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "P6fC9BNp3u-QF-w71OiC3R5XtkCJxNobNawiM_V3ahI"
+      }
+    }
+  ],
+  "service": [
+    {
+      "id": "#0",
+      "type": "MoneyAddress",
+      "serviceEndpoint": [
+        ""
+      ]
+    }
+  ]
+}
