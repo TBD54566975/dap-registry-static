@@ -17,7 +17,14 @@
       "id": "#0",
       "type": "MoneyAddress",
       "serviceEndpoint": [
-        ""
+        "urn:usdc:eth:0x65126bdaFA9C35ca455234f934ed375992408664"
+      ]
+    },
+    {
+      "id": "#0",
+      "type": "MoneyAddress",
+      "serviceEndpoint": [
+        "urn:btc:addr:36AmhwJ6xKPVspMVC4QWBEByCMphLdCpVM"
       ]
     }
   ]
