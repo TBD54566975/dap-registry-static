@@ -21,7 +21,7 @@
       ]
     },
     {
-      "id": "#0",
+      "id": "#1",
       "type": "MoneyAddress",
       "serviceEndpoint": [
         "urn:btc:addr:36AmhwJ6xKPVspMVC4QWBEByCMphLdCpVM"
