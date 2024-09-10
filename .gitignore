@@ -1,1 +1,5 @@
 .hermit
+.idea/
+*.iml
+*.swp
+.DS_Store
