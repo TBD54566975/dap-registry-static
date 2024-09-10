@@ -1,0 +1,38 @@
+{
+  "id": "did:web:didpay.me:example",
+  "verificationMethod": [
+    {
+      "id": "did:web:didpay.me:example#0",
+      "type": "JsonWebKey",
+      "controller": "did:web:didpay.me:example",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "R3n5bsRms4c5NEIHQtT6HuYBux8z7VTi7enhPuBRyo0"
+      }
+    }
+  ],
+  "service": [
+    {
+      "id": "btc-lightning-address",
+      "type": "MoneyAddress",
+      "serviceEndpoint": [
+        "urn:btc:lnaddr:gainfulboot89@walletofsatoshi.com"
+      ]
+    },
+    {
+      "id": "btc-bolt12",
+      "type": "MoneyAddress",
+      "serviceEndpoint": [
+        "urn:btc:lno:lno1zrxq8pjw7qjlm68mtp7e3yvxee4y5xrgjhhyf2fxhlphpckrvevh50u0qfq6umvtqucas8054gtms4kwlx204hjh3dlfjv4qusv4u6ft35896qsrjr26m4aqma27vsvg3z5rcqfpxezttla82k4ydrca02e0huc7qkhsqvu7x90y89m423eaph3j5jcksgqmv5894cmxcxrqpryxspx7fhme3l7nf0zlsh56ec3dc3qgng8wf58zngzrqd8f09zvjx7srcafrhhd55wkx3p04zwf29yee46afgyp8mxvedscqqqsxurgnea7wdc0a6dcktn0wswfdc"
+      ]
+    },
+    {
+      "id": "btc-onchain",
+      "type": "MoneyAddress",
+      "serviceEndpoint": [
+        "urn:btc:addr:bc1qzgkrx389a8l3jn2d6qne489jnk6syuhu68w37x"
+      ]
+    }
+  ]
+}
