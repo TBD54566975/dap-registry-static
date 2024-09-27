@@ -1,0 +1,31 @@
+{
+  "id": "did:web:didpay.me:blackgirlbytes",
+  "verificationMethod": [
+    {
+      "id": "did:web:didpay.me:blackgirlbytes#0",
+      "type": "JsonWebKey",
+      "controller": "did:web:didpay.me:blackgirlbytes",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "28_3er2o5EohzU0iPd-U1K_QTioR506K3Ou_dRI8Wcg"
+      }
+    }
+  ],
+  "service": [
+    {
+      "id": "#0",
+      "type": "MoneyAddress",
+      "serviceEndpoint": [
+        "urn:btc:addr:bc1qdgqk4sgs2c6pm5pwgvn3c0q5tcgu2cv05srqpm"
+      ]
+    },
+    {
+      "id": "#1",
+      "type": "MoneyAddress",
+      "serviceEndpoint": [
+        "urn:btc:lnaddr:lnbc1pn2mrg0dqdgdshx6pqg9c8qpp509tcfkmfv7mk4lvyak5gfcv4drnwp6cp8vv663vct4rdlhewc8pssp5lsap28cegvjcrswpm5e5cezkxvf3qee2tqmcm5zuugydrk5ja6kq9qrsgqcqpcxqy8ayqrzjqv06k0m23t593pngl0jt7n9wznp64fqngvctz7vts8nq4tukvtljqzl47uqqt4cqqqqqqqqqqqqqqqqq9grzjqtsjy9p55gdceevp36fvdmrkxqvzfhy8ak2tgc5zgtjtra9xlaz97pmzxsqqdhsqqcqqqqqqqqqqqqqq9gyh6t7g40gr9mla5gmkpklfzwydy3z3tksx5q5z7gy6mwqp5za86jz8t78v0gud2sqhcpq2j2p3zfmm4zec9z2cvjexkwm08xkd6mawqq9wtun4"
+      ]
+    }
+  ]
+}
